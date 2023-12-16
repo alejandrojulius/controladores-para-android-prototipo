@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ventaProducto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Venta_producto">
+
+  <TextView
+      android:id="@+id/textView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="VENATA DE PRODUCTOS PE"
+      tools:layout_editor_absoluteX="117dp"
+      tools:layout_editor_absoluteY="16dp" />
+
+  <EditText
+      android:id="@+id/txtNombre"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:inputType="text"
+      android:text="Nombre"
+      tools:layout_editor_absoluteX="15dp"
+      tools:layout_editor_absoluteY="53dp" />
+
+  <EditText
+      android:id="@+id/txtCodigo"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:inputType="text"
+      android:text="codigo pe"
+      tools:layout_editor_absoluteX="17dp"
+      tools:layout_editor_absoluteY="114dp" />
+
+  <RadioButton
+      android:id="@+id/rblmportado"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Importado 20%"
+      tools:layout_editor_absoluteX="23dp"
+      tools:layout_editor_absoluteY="175dp" />
+
+  <RadioButton
+      android:id="@+id/rdNacional"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="nacional 10%"
+      tools:layout_editor_absoluteX="36dp"
+      tools:layout_editor_absoluteY="226dp" />
+
+  <Button
+      android:id="@+id/btnNuevo"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Nuevop pe"
+      tools:layout_editor_absoluteX="15dp"
+      tools:layout_editor_absoluteY="314dp" />
+
+  <Button
+      android:id="@+id/btnCancelar"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="cancela  pe"
+      tools:layout_editor_absoluteX="154dp"
+      tools:layout_editor_absoluteY="316dp" />
+
+  <Button
+      android:id="@+id/btnElimina"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Eliminame pe"
+      tools:layout_editor_absoluteX="305dp"
+      tools:layout_editor_absoluteY="311dp" />
+
+  <CheckBox
+      android:id="@+id/chkIgv"
+      android:layout_width="126dp"
+      android:layout_height="36dp"
+      android:text="IGV 10%"
+      tools:layout_editor_absoluteX="72dp"
+      tools:layout_editor_absoluteY="442dp" />
+
+  <CheckBox
+      android:id="@+id/chkMov"
+      android:layout_width="152dp"
+      android:layout_height="38dp"
+      android:text="movilidad S/.500"
+      tools:layout_editor_absoluteX="74dp"
+      tools:layout_editor_absoluteY="490dp" />
+
+  <Spinner
+      android:id="@+id/spinProductos"
+      android:layout_width="409dp"
+      android:layout_height="wrap_content"
+      android:entries="@array/vProductos"
+      tools:layout_editor_absoluteX="1dp"
+      tools:layout_editor_absoluteY="377dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

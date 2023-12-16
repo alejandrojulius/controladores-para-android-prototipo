@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity2">
+
+    <TextView
+        android:id="@+id/edtIngreso"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="Bienvenido causa"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="34sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/edtClave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="sans-serif-thin"
+        android:inputType="text"
+        android:lineSpacingExtra="20sp"
+        android:text="Ingreso Al Sistema pe"
+        android:textAllCaps="true"
+        android:textColor="#CDDC39"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:typeface="normal" />
+
+    <Button
+        android:id="@+id/btnAcepta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="BotonAceptar"
+        android:text="Ingrese pe"
+        android:textAlignment="viewEnd"
+        android:textAllCaps="false"
+        android:textColor="#8BC34A"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btnCerrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="BotonCerrar"
+        android:text="Sal de aca pe" />
+
+</LinearLayout>

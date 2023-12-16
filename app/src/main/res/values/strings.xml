@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">AppControlesAndroid</string>
+    <string-array name="vProductos">
+
+        <item>Seleccione</item>
+
+        <item>Teclado</item>
+
+        <item>ordenadores</item>
+
+        <item>USB 128GB</item>
+
+        <item>Parlantes multimedia</item>
+
+            <item>Televisor</item>
+
+            <item>Cocina</item>
+
+            <item>Refrigeradora</item>
+
+            <item>Lavadora</item>
+
+        </string-array>
+
+
+</resources>
